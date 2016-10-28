@@ -6,4 +6,6 @@ Placing it here as a little portfolio for my CV - as I'd like to write great app
 
 It is literally the initial commit as for now app made some leap forward — added adbanners and in app purchases;), homescreen widget functionality.
 
+Current version is here - https://play.google.com/store/apps/details?id=com.dobrowins.anon.panicpanic
+
 Right now working on additional functionality - so install and stay tuned! (though wish nor you, nor you siblings would never need app like this)
