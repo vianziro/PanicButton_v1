@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dobrowins.anon.panicpanic.MainActivity">
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="99"
+        android:title="@string/menu_feedback"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/moneymoneymoney"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/menu_money"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/changeOrAddNumber"
+        android:orderInCategory="101"
+        android:title="@string/menu_contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/instructions"
+        android:orderInCategory="102"
+        android:title="@string/menu_instruction"
+        app:showAsAction="never" />
+</menu>

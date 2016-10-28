@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Тревожная кнопка</string>
+    <string name="menu_feedback">Обратная связь (email)</string>
+    <string name="menu_contact">Изменить номер</string>
+    <string name="menu_instruction">Инструкция</string>
+
+    <string name="YES">Да</string>
+    <string name="NO">Нет</string>
+    <string name="OK">OK</string>
+
+    <!--WelcomeActivity strings-->
+    <string name="welcomeText">Пожалуйста, введите номер телефона (начиная с "+7"), на который следует отправлять SMS:</string>
+    <string name="welcomeBtnTxt">сохранить</string>
+    <string name="changeNumberNote">При необходимости номер можно будет позже изменить в настройках.</string>
+    <string name="pleaseStartFromPlusSevenOrEight">Пожалуйста, введите номер, начиная с +7 или 8</string>
+    <string name="pleaseTest">Пожалуйста, для обеспечения собственной безопасности протестируйте приложение хотя бы единожды.</string>
+    <string name="instruction">Зажмите кнопку «Тревога» на пару секунд для того, чтобы сообщить близким о том, что Вам требуется помощь.\nПожалуйста, протестируйте работу приложения хотя бы один раз.\n\nБерегите себя.</string>
+    <string name="areUSure">Вы уверены, что хотите сохранить номер</string>
+    <string name="emptyEditText">Невозможно сохранить пустой номер. Пожалуйста, попробуйте снова.</string>
+    <string name="cantSave">Невозможно сохранить. Пожалуйста, введите корректный номер.</string>
+    <string name="numberNotSaved">Не удалось сохранить номер в базу данных. Пожалуйста, попробуйте снова.</string>
+
+    <!--MainActivity strings-->
+    <string name="yourCoord">Ваши координаты:</string>
+    <string name="coordUnknown">unknown</string>
+    <string name="panicButtonUnclicked">ТРЕВОГА</string>
+    <string name="panicButtonClicked">БЕЗ ПАНИКИ</string>
+    <string name="helpIsOnTheWay">SMS выслана, помощь в пути!</string>
+    <string name="smsSentException">SMS не выслана. Пожалуйста, попробуйте снова.</string>
+    <string name="lastLocationIsNull">Координаты не получены, невозможно выслать SMS</string>
+    <string name="onConnectionFailed">Не удалось установить соединение. Пожалуйста, попробуйте снова.</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="locationRationale">Приложение не сможет работать без доступа к данным о локации. Разрешить?</string>
+    <string name="smsRationale">Приложение не сможет работать без доступа к функции SMS. Разрешить?</string>
+    <string name="overlayRationale">Приложение не сможет показывать диалоги без доступа к функции window overlay. Разрешить?</string>
+
+    <!--ChangeNumberActivity strings-->
+    <string name="changeOrAddTextviewString">Пожалуйста, введите новый номер на который будут отправляться SMS:</string>
+    <string name="changeOrAddButtonString">изменить номер</string>
+
+</resources>
