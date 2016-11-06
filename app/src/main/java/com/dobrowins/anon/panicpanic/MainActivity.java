@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements
 
                 return false;
 
-            } //end of onLongClick
+            }
         });
     }
 
@@ -137,7 +137,8 @@ public class MainActivity extends AppCompatActivity implements
                     ActivityCompat.requestPermissions(this,
                             new String[]{Manifest.permission.SEND_SMS}, REQUEST_SEND_SMS);
                 }
-                else { // if sms permission is granted
+                // if sms permission is granted
+                else { 
                     // for cyrillic messages arrayList is more convenient as all needed info might not fit in one sms
                     ArrayList<String> arrayMsg = new ArrayList<String>();
                     arrayMsg.add("Мне нужна помощь!\n");
@@ -183,10 +184,11 @@ public class MainActivity extends AppCompatActivity implements
                 e.printStackTrace();
             }
         }
-        else {// if lastLocation is null
+        // if lastLocation is null
+        else {
             Toast.makeText(this, R.string.lastLocationIsNull, Toast.LENGTH_LONG).show();
         }
-    } // end of SendSms()
+    } 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -202,10 +204,6 @@ public class MainActivity extends AppCompatActivity implements
 
         // handling menu items clicks
         switch (id) {
-//            case R.id.moneymoneymoney:
-//                Toast.makeText(MainActivity.this, "TBD", Toast.LENGTH_SHORT).show();
-//                return true;
-
             case R.id.feedback:
                 // creating email intent, it's implicit as it is not known which email app is used
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
